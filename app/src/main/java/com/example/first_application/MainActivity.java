@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     public void onClickButton(View v){
         Toast.makeText(this, "Hello World", Toast.LENGTH_SHORT).show();
         TextView textView = (TextView) findViewById(R.id.myText);
-        textView.setText("changed!");
+        textView.setText("changed! testing");
     }
 
     @Override
